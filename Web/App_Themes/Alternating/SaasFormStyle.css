@@ -1,0 +1,114 @@
+﻿.box
+{
+}
+
+.box fieldset
+{
+   border: 1px #EAEAEA solid;
+   padding: 10px;
+}
+
+.box fieldset legend
+{
+	color: #3876CA;
+}
+
+.formzone
+{
+	margin: 10px;
+}
+
+
+.saasformbody
+{
+	border-left: 1px #B7D8ED solid;
+	border-right: 1px #B7D8ED solid;
+	border-bottom: 1px #B7D8ED solid;
+	width:100%;
+	height:100%;
+}
+
+.tabitem
+{
+    background-color:#FDFDFD;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#CFE8FB', endColorStr='#FFFFFF', gradientType=0);
+    color:Black;
+    border-style:none;
+    border-top: 1px #B7D8ED solid;
+	border-left: 1px #B7D8ED solid;
+	border-right: 1px #B7D8ED solid;
+	cursor: hand;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.activetabitem
+{
+	border-style:none;
+	background-color:#FFFFFF;
+	color:#FF7F50;
+	border-top: 1px #B7D8ED solid;
+	border-left: 1px #B7D8ED solid;
+	border-right: 1px #B7D8ED solid;
+	padding-top: 2px;
+	padding-bottom: 6px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-weight: bold;	
+}
+
+.tabcell
+{
+    border-bottom: 1px #B7D8ED solid;
+    vertical-align: bottom;
+}
+
+.submit
+{
+	color:HighlightTxt;
+	font-weight:bold;
+}
+
+.reject
+{
+	color:Red;
+	font-weight:bold;
+}
+
+.cancel
+{
+	color:Red;
+	font-weight:bold;
+}
+
+.approve
+{
+	color:Green;
+	font-weight:bold;
+}
+
+.buttonstyle
+{
+	background-color:#FDFDFD;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#CFE8FB', endColorStr='#FFFFFF', gradientType=0);
+    color:Black;
+    border-style:none;
+    border: 1px #B7D8ED solid;
+	cursor: hand;
+	width: 70px;
+	height: 20px;
+}
+
+.passitem
+{
+}
+.defaultitem
+{
+}
+.currentitem 
+{ 
+	color:#ff6600; 
+	font-weight:bold; 
+}

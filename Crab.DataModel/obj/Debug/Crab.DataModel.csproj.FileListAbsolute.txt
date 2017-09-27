@@ -1,0 +1,7 @@
+F:\MyWorkspace\Crab\Crab.DataModel\bin\Debug\Crab.DataModel.dll
+F:\MyWorkspace\Crab\Crab.DataModel\bin\Debug\Crab.DataModel.pdb
+F:\MyWorkspace\Crab\Crab.DataModel\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\MyWorkspace\Crab\Crab.DataModel\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\MyWorkspace\Crab\Crab.DataModel\bin\Debug\Microsoft.Practices.ObjectBuilder.DLL
+F:\MyWorkspace\Crab\Crab.DataModel\obj\Debug\Crab.DataModel.dll
+F:\MyWorkspace\Crab\Crab.DataModel\obj\Debug\Crab.DataModel.pdb

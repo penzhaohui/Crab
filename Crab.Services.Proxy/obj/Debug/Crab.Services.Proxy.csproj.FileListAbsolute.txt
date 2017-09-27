@@ -1,0 +1,14 @@
+F:\MyWorkspace\Crab\Crab.Services.Proxy\obj\Debug\Crab.Services.Proxy.csprojResolveAssemblyReference.cache
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.Services.Proxy.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.Services.Proxy.pdb
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.Business.Contract.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.DataModel.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.Runtime.Contract.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.Business.Contract.pdb
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.DataModel.pdb
+F:\MyWorkspace\Crab\Crab.Services.Proxy\bin\Debug\Crab.Runtime.Contract.pdb
+F:\MyWorkspace\Crab\Crab.Services.Proxy\obj\Debug\Crab.Services.Proxy.dll
+F:\MyWorkspace\Crab\Crab.Services.Proxy\obj\Debug\Crab.Services.Proxy.pdb

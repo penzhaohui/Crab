@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Ads/Small/ad1.gif</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Microsoft</AlternateText>
+    <Keyword></Keyword>
+    <Impressions></Impressions>
+    <Caption>Windows Live</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Ads/Small/ad2.gif</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Microsoft</AlternateText>
+    <Keyword></Keyword>
+    <Impressions>Microsoft</Impressions>
+    <Caption>Microsoft</Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Ads/Small/ad3.gif</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Microsoft</AlternateText>
+    <Keyword>L</Keyword>
+    <Impressions>Microsoft</Impressions>
+    <Caption>Microsoft</Caption>
+  </Ad>
+</Advertisements>

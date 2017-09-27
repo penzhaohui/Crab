@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{91AE6BFD-E5DE-41C8-937E-13A4ED65D50D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crab.Tests</RootNamespace>
+    <AssemblyName>Crab.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Impersonator.cs" />
+    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Crab.Business.Contract\Crab.Business.Contract.csproj">
+      <Project>{2734145b-079d-43a3-af72-2939d8ba77dc}</Project>
+      <Name>Crab.Business.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Business.Logic\Crab.Business.Logic.csproj">
+      <Project>{e0b55ef6-50d3-484b-82fc-3ae0b2441183}</Project>
+      <Name>Crab.Business.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Business.Services\Crab.Business.Services.csproj">
+      <Project>{3416cb8a-1f00-48dc-8692-48fadceea883}</Project>
+      <Name>Crab.Business.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.DataModel\Crab.DataModel.csproj">
+      <Project>{7b44d5c3-811d-4da9-814a-e8b9a704c962}</Project>
+      <Name>Crab.DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Runtime.Contract\Crab.Runtime.Contract.csproj">
+      <Project>{103b34db-c26d-445b-b0c3-03a86c2c47e6}</Project>
+      <Name>Crab.Runtime.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Runtime.Logic\Crab.Runtime.Logic.csproj">
+      <Project>{7bad3b44-3991-4679-b0ac-aae08e5a8fa4}</Project>
+      <Name>Crab.Runtime.Logic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Runtime.Services\Crab.Runtime.Services.csproj">
+      <Project>{ffd4c93a-6851-4289-aa05-3b682d9540fd}</Project>
+      <Name>Crab.Runtime.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Services.Proxy\Crab.Services.Proxy.csproj">
+      <Project>{a89616ad-b7d4-41e5-a04e-0c4f729feb20}</Project>
+      <Name>Crab.Services.Proxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Web.Security\Crab.Web.Security.csproj">
+      <Project>{02819afa-c122-47a6-b40b-04235d5756f8}</Project>
+      <Name>Crab.Web.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab.Workflow\Crab.Workflow.csproj">
+      <Project>{a8fffdd7-014e-4676-98c6-2de3c6bb6062}</Project>
+      <Name>Crab.Workflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crab\Crab.csproj">
+      <Project>{09F72BE8-DD64-49FD-9BED-08FAA2168C63}</Project>
+      <Name>Crab</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

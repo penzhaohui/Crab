@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="Tenant_Admin_Role" value="Administrators"/>
+  </appSettings>
+  <!-- WCF configuration-->
+  <system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="UnSecureConversationBinding" closeTimeout="00:01:00"
+          openTimeout="00:01:00" receiveTimeout="00:10:00" sendTimeout="00:01:00"
+          allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+          maxBufferSize="65536" maxBufferPoolSize="524288" maxReceivedMessageSize="65536"
+          messageEncoding="Text" textEncoding="utf-8" transferMode="Buffered"
+          useDefaultWebProxy="true">
+          <readerQuotas maxDepth="32" maxStringContentLength="16777216"
+            maxArrayLength="16384" maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+          <security mode="None">
+            <transport clientCredentialType="None" proxyCredentialType="None"
+              realm="" />
+            <message clientCredentialType="UserName" algorithmSuite="Default" />
+          </security>
+        </binding>
+      </basicHttpBinding>
+    </bindings>
+    <behaviors>
+      <endpointBehaviors>
+        <behavior name="headersMapping">
+          <attachTenantHeader />
+        </behavior>
+      </endpointBehaviors>
+    </behaviors>
+    <extensions>
+      <behaviorExtensions>
+        <add name="attachTenantHeader" type="Crab.Web.Security.TenantHeaderBehavior, Crab.Web.Security, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+      </behaviorExtensions>
+    </extensions>
+    <client>
+      <endpoint address="http://localhost/CrabHost/Runtime/ProvisionService.svc"
+        binding="basicHttpBinding" bindingConfiguration="UnSecureConversationBinding"
+        contract="Crab.Runtime.Contract.IProvision" name="IProvision" />
+      <endpoint address="http://localhost/CrabHost/Runtime/AuthenticationService.svc"
+        binding="basicHttpBinding" bindingConfiguration="UnSecureConversationBinding"
+        contract="Crab.Runtime.Contract.IAuthentication" name="IAuthentication" />
+      <endpoint address="http://localhost/CrabHost/Runtime/AuthorizationService.svc"
+        binding="basicHttpBinding" bindingConfiguration="UnSecureConversationBinding"
+        contract="Crab.Runtime.Contract.IAuthorization" name="IAuthorization" />
+      <endpoint address="http://localhost/CrabHost/Runtime/MetadataService.svc"
+        binding="basicHttpBinding" bindingConfiguration="UnSecureConversationBinding"
+        behaviorConfiguration="headersMapping"
+        contract="Crab.Runtime.Contract.IMetadataService" name="IMetadataService" />
+      <endpoint address="http://localhost/CrabHost/Runtime/WorkflowServiceSC.svc"
+        binding="basicHttpBinding" bindingConfiguration="UnSecureConversationBinding"
+        behaviorConfiguration="headersMapping"
+        contract="Crab.Runtime.Contract.IWorkflow" name="IWorkflow" />
+    </client>
+  </system.serviceModel>
+</configuration>

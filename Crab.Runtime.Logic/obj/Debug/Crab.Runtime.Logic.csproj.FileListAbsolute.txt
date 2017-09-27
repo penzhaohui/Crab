@@ -1,0 +1,14 @@
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\obj\Debug\Crab.Runtime.Logic.csprojResolveAssemblyReference.cache
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\obj\Debug\Crab.Runtime.Logic.csproj.GenerateResource.Cache
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Crab.Runtime.Logic.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Crab.Runtime.Logic.pdb
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Crab.DataModel.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Crab.Runtime.Contract.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Crab.DataModel.pdb
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\bin\Debug\Crab.Runtime.Contract.pdb
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\obj\Debug\Crab.Runtime.Logic.Properties.Resources.resources
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\obj\Debug\Crab.Runtime.Logic.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Logic\obj\Debug\Crab.Runtime.Logic.pdb

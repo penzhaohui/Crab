@@ -1,0 +1,144 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Business.Contract", "Crab.Business.Contract\Crab.Business.Contract.csproj", "{2734145B-079D-43A3-AF72-2939D8BA77DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Business.Logic", "Crab.Business.Logic\Crab.Business.Logic.csproj", "{E0B55EF6-50D3-484B-82FC-3AE0B2441183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Business.Services", "Crab.Business.Services\Crab.Business.Services.csproj", "{3416CB8A-1F00-48DC-8692-48FADCEEA883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.DataModel", "Crab.DataModel\Crab.DataModel.csproj", "{7B44D5C3-811D-4DA9-814A-E8B9A704C962}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Runtime.Contract", "Crab.Runtime.Contract\Crab.Runtime.Contract.csproj", "{103B34DB-C26D-445B-B0C3-03A86C2C47E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Runtime.Logic", "Crab.Runtime.Logic\Crab.Runtime.Logic.csproj", "{7BAD3B44-3991-4679-B0AC-AAE08E5A8FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Runtime.Services", "Crab.Runtime.Services\Crab.Runtime.Services.csproj", "{FFD4C93A-6851-4289-AA05-3B682D9540FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Services.Proxy", "Crab.Services.Proxy\Crab.Services.Proxy.csproj", "{A89616AD-B7D4-41E5-A04E-0C4F729FEB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Web.Security", "Crab.Web.Security\Crab.Web.Security.csproj", "{02819AFA-C122-47A6-B40B-04235D5756F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Workflow", "Crab.Workflow\Crab.Workflow.csproj", "{A8FFFDD7-014E-4676-98C6-2DE3C6BB6062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab", "Crab\Crab.csproj", "{09F72BE8-DD64-49FD-9BED-08FAA2168C63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.Tests", "Crab.Tests\Crab.Tests.csproj", "{91AE6BFD-E5DE-41C8-937E-13A4ED65D50D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Web", "Web\", "{0E6ABA52-F027-4A82-B4DB-75971E9D6CFF}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_36262"
+		Debug.AspNetCompiler.PhysicalPath = "Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36262\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_36262"
+		Release.AspNetCompiler.PhysicalPath = "Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_36262\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "36262"
+		SlnRelativePath = "Web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crab.WebHost", "Crab.WebHost\Crab.WebHost.csproj", "{0FE0C282-E01C-480F-9864-E27209DA4632}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Crab.Web", "Crab.Web\", "{D49CEFAE-1DAE-4BA4-9745-A1C426F3DB9C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_45476"
+		Debug.AspNetCompiler.PhysicalPath = "Crab.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_45476\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_45476"
+		Release.AspNetCompiler.PhysicalPath = "Crab.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_45476\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "45476"
+		SlnRelativePath = "Crab.Web\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2734145B-079D-43A3-AF72-2939D8BA77DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2734145B-079D-43A3-AF72-2939D8BA77DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2734145B-079D-43A3-AF72-2939D8BA77DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2734145B-079D-43A3-AF72-2939D8BA77DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B55EF6-50D3-484B-82FC-3AE0B2441183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B55EF6-50D3-484B-82FC-3AE0B2441183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B55EF6-50D3-484B-82FC-3AE0B2441183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B55EF6-50D3-484B-82FC-3AE0B2441183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3416CB8A-1F00-48DC-8692-48FADCEEA883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3416CB8A-1F00-48DC-8692-48FADCEEA883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3416CB8A-1F00-48DC-8692-48FADCEEA883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3416CB8A-1F00-48DC-8692-48FADCEEA883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B44D5C3-811D-4DA9-814A-E8B9A704C962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B44D5C3-811D-4DA9-814A-E8B9A704C962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B44D5C3-811D-4DA9-814A-E8B9A704C962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B44D5C3-811D-4DA9-814A-E8B9A704C962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103B34DB-C26D-445B-B0C3-03A86C2C47E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103B34DB-C26D-445B-B0C3-03A86C2C47E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103B34DB-C26D-445B-B0C3-03A86C2C47E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103B34DB-C26D-445B-B0C3-03A86C2C47E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAD3B44-3991-4679-B0AC-AAE08E5A8FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAD3B44-3991-4679-B0AC-AAE08E5A8FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAD3B44-3991-4679-B0AC-AAE08E5A8FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAD3B44-3991-4679-B0AC-AAE08E5A8FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD4C93A-6851-4289-AA05-3B682D9540FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD4C93A-6851-4289-AA05-3B682D9540FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD4C93A-6851-4289-AA05-3B682D9540FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD4C93A-6851-4289-AA05-3B682D9540FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A89616AD-B7D4-41E5-A04E-0C4F729FEB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A89616AD-B7D4-41E5-A04E-0C4F729FEB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A89616AD-B7D4-41E5-A04E-0C4F729FEB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A89616AD-B7D4-41E5-A04E-0C4F729FEB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02819AFA-C122-47A6-B40B-04235D5756F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02819AFA-C122-47A6-B40B-04235D5756F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02819AFA-C122-47A6-B40B-04235D5756F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02819AFA-C122-47A6-B40B-04235D5756F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FFFDD7-014E-4676-98C6-2DE3C6BB6062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FFFDD7-014E-4676-98C6-2DE3C6BB6062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FFFDD7-014E-4676-98C6-2DE3C6BB6062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FFFDD7-014E-4676-98C6-2DE3C6BB6062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F72BE8-DD64-49FD-9BED-08FAA2168C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F72BE8-DD64-49FD-9BED-08FAA2168C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F72BE8-DD64-49FD-9BED-08FAA2168C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F72BE8-DD64-49FD-9BED-08FAA2168C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91AE6BFD-E5DE-41C8-937E-13A4ED65D50D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91AE6BFD-E5DE-41C8-937E-13A4ED65D50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91AE6BFD-E5DE-41C8-937E-13A4ED65D50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91AE6BFD-E5DE-41C8-937E-13A4ED65D50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E6ABA52-F027-4A82-B4DB-75971E9D6CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6ABA52-F027-4A82-B4DB-75971E9D6CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E6ABA52-F027-4A82-B4DB-75971E9D6CFF}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E6ABA52-F027-4A82-B4DB-75971E9D6CFF}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0FE0C282-E01C-480F-9864-E27209DA4632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FE0C282-E01C-480F-9864-E27209DA4632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FE0C282-E01C-480F-9864-E27209DA4632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FE0C282-E01C-480F-9864-E27209DA4632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49CEFAE-1DAE-4BA4-9745-A1C426F3DB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49CEFAE-1DAE-4BA4-9745-A1C426F3DB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49CEFAE-1DAE-4BA4-9745-A1C426F3DB9C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49CEFAE-1DAE-4BA4-9745-A1C426F3DB9C}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

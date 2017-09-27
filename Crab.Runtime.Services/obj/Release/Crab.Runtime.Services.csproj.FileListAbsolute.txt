@@ -1,0 +1,14 @@
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.Runtime.Services.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.Runtime.Services.pdb
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.DataModel.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.Runtime.Contract.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.Runtime.Logic.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.DataModel.pdb
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.Runtime.Contract.pdb
+F:\MyWorkspace\Crab\Crab.Runtime.Services\bin\Release\Crab.Runtime.Logic.pdb
+F:\MyWorkspace\Crab\Crab.Runtime.Services\obj\Release\Crab.Runtime.Services.csprojResolveAssemblyReference.cache
+F:\MyWorkspace\Crab\Crab.Runtime.Services\obj\Release\Crab.Runtime.Services.dll
+F:\MyWorkspace\Crab\Crab.Runtime.Services\obj\Release\Crab.Runtime.Services.pdb

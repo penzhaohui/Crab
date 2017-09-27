@@ -1,0 +1,7 @@
+﻿<ns0:ExportProcess x:Name="ExportProcess"  
+  xmlns:ns1="clr-namespace:Crab.Workflow.Activities;Assembly=Crab.Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" 
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/workflow" 
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+  xmlns:ns0="clr-namespace:Crab.Workflow;Assembly=Crab.Workflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+	<ns1:ReviewActivity x:Name="Review" Description="Review" />
+</ns0:ExportProcess>

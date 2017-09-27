@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Ads/Ad728x90/ad1.jpg</ImageUrl>
+    <NavigateUrl>http://www.live.com/</NavigateUrl>
+    <AlternateText>Windows Live</AlternateText>
+    <Keyword>L</Keyword>
+    <Impressions>Live</Impressions>
+    <Caption>Windows Live</Caption>
+  </Ad>
+</Advertisements>

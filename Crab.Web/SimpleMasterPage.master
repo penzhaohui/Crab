@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SimpleMasterPage.master.cs" Inherits="SimpleMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Crab Portal</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <asp:Literal ID="meta" runat="server"></asp:Literal>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <table border="0" cellpadding="0" cellspacing="0" class="PageHead fixed" width="100%">
+            <tr>
+                <td width="190">
+                    <asp:Image ID="Image1" runat="server" align="absmiddle" ImageUrl="~/images/title.gif" Style="margin: 0px 4px 9px 6px" />
+                    <asp:Label ID="lblTenantDisplayName" runat="server" Style="color: white; font-weight: bold; font-family: Arial; font-size: 16px;">Crab</asp:Label></td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <table border="0" cellpadding="0" cellspacing="0" class='fixed' width="100%">
+            <tr>
+                <td style="padding: 50px 0px 5px 0px" align="Center" valign="bottom">Copyright © 1990-2017 Microsoft Corporation. All rights reserved.
+                </td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

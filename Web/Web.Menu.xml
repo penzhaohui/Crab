@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfMainMenu>
+    <MainMenu Text="Home" Url="~/Default.aspx" Roles="*" Icon="~/Images/home.gif" ResourceKey="Menu$Home">
+        <SubMenus>
+            <SubMenu Text="Home" Url="~/Default.aspx" Icon="~/Images/home.gif" ResourceKey="Menu$Home"/>
+            <SubMenu Text="Change Password" Url="~/ModifyPassword.aspx" Icon="" ResourceKey="Menu$ChangePassword"/>
+            <SubMenu Text="Edit Profile" Url="~/EditProfile.aspx"  Icon="~/Images/profile.gif" ResourceKey="Menu$EditProfile"/>
+            <SubMenu Text="Change Theme" Url="~/ChangeVision.aspx" Icon="~/Images/home.gif" ResourceKey="Menu$ChangeTheme"/>
+        </SubMenus>
+    </MainMenu>
+    <MainMenu Text="Workplace" Url="~/Workplace/Workplace.aspx" Roles="*" Icon="~/Images/task.gif" ResourceKey="Menu$Workplace">
+        <SubMenus>
+          <SubMenu Text="Workplace" Url="~/Workplace/Workplace.aspx" Icon="~/Images/task.gif" ResourceKey="Menu$Workplace"/>
+          <SubMenu Text="Maintain Customer Infomation" Url="~/Workplace/Customer.aspx" Icon="" ResourceKey="Menu$CustomerInformation"/>
+          <SubMenu Text="View Export Contract" Url="~/Workplace/ExportContractView.aspx" Icon="" Visible="false" ResourceKey="Menu$ViewShippingExportContract"/>
+          <SubMenu Text="Create Export Contract" Url="~/Workplace/ExportContractCreate.aspx" Icon="" Roles="*" ResourceKey="Menu$CreateShippingExportContract"/>
+          <SubMenu Text="Search Export Contract" Url="~/Workplace/SearchExportContract.aspx" Icon="" ResourceKey="Menu$SearchShippingExportContract"/>
+          <SubMenu Text="View Workflow" Url="~/Workplace/WorkflowView.aspx" Icon="" Visible="false" ResourceKey="Menu$ViewWorkflow"/>
+        </SubMenus>
+    </MainMenu>
+    <MainMenu Text="Admin" Url="~/Admin/Default.aspx" Roles="Administrators" Icon="~/Images/admin.gif" ResourceKey="Menu$Admin">
+        <SubMenus>
+            <SubMenu Text="Admin Home" Url="~/Admin/Default.aspx" Icon="~/Images/admin.gif" ResourceKey="Menu$AdminHome"/>
+            <SubMenu Text="Edit Tenant Profile" Url="~/Admin/EditTenantProfile.aspx" Icon="~/Images/user.gif" />
+            <SubMenu Text="Manage Users" Url="~/Admin/Users/ManageUsers.aspx" Icon="~/Images/user.gif" ResourceKey="Menu$ManageUsers"/>
+            <SubMenu Text="Create User" Url="~/Admin/Users/CreateUser.aspx"  Icon="~/Images/user.gif" ResourceKey="Menu$CreateUser"/>
+            <SubMenu Text="Customize DataModel" Url="~/Admin/Customization/CustomizeDataModel.aspx" Icon="" ResourceKey="Menu$CustomizeDataModel"/>
+            <SubMenu Text="Customize Workflow" Url="~/Admin/Customization/CustomizeWorkflow.aspx"  Icon="" ResourceKey="Menu$CustomizeWorkflow"/>
+        </SubMenus>
+    </MainMenu>
+    <MainMenu Text="System Admin" Url="~/SysAdmin/Default.aspx" Roles="SysAdmin" Icon="~/Images/admin.gif" ResourceKey="Menu$SysAdmin">
+        <SubMenus>
+            <SubMenu Text="System Admin" Url="~/SysAdmin/Default.aspx" ResourceKey="Menu$SysAdmin"/>
+            <SubMenu Text="Manage Tenants" Url="~/SysAdmin/Tenants/ManageTenants.aspx" ResourceKey="Menu$ManageTenants"/>
+            <SubMenu Text="Edit Tenant" Url="~/SysAdmin/Tenants/ModifyTenants.aspx" Visible="false" ResourceKey="Menu$EditTenant"/>
+        </SubMenus>
+    </MainMenu>
+</ArrayOfMainMenu>

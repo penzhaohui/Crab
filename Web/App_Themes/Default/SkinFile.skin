@@ -1,0 +1,15 @@
+<asp:Button runat="server" cssClass="buttonstyle" />
+<asp:TextBox runat="server" cssClass="textbox" />
+
+<asp:WebPartZone runat="server" PartChromeStyle-BorderColor="#75CEA2" PartTitleStyle-CssClass="wp_Header"
+ HeaderStyle-HorizontalAlign="Center"  HeaderStyle-CssClass="t3" >
+    <MenuPopupStyle Font-Names="tahoma,verdana,sans-serif" Font-Size="11px" BorderStyle="solid" CellPadding="2" BorderColor="#d9d9d9" BorderWidth="1px" />
+    <CloseVerb Visible="false" />
+</asp:WebPartZone>
+ 
+<asp:GridView CssClass="border" CellPadding="3" CellSpacing="0" Width="100%" runat="server">
+    <HeaderStyle ForeColor="White" Font-Size="11px" Font-Names="Tahoma,Arial,Verdana,Sans-Serif" Font-Bold="true" CssClass="gridviewheader"/>
+    <AlternatingRowStyle BackColor="#eeeeee" />
+</asp:GridView>
+
+<asp:Label SkinID="SpecLabel" runat="server" cssClass="label" />

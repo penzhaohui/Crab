@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" MasterPageFile="~/MasterPage.master"  
+    CodeFile="WebpartMasterPage.master.cs" Inherits="WebpartMasterPage" %>
+
+<asp:Content ID="Content1" runat="Server" ContentPlaceHolderID="ContentPlaceHolder1">
+    <asp:WebPartManager ID="WebPartManager1" runat="server">
+    </asp:WebPartManager>
+    <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0" height="100%">
+        <tr>
+            <td valign="top" width="100%">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolderWebPart" runat="server">
+                </asp:ContentPlaceHolder>
+            </td>
+            <td valign="top">                
+                <asp:CatalogZone ID="CatalogZone1" runat="server" BackColor="white" BorderColor="#B7D8ED"
+                    BorderWidth="1px" ForeColor="White" HeaderStyle-CssClass="wp_Header" HeaderText="Add Web parts"
+                    Height="100%">
+                    <ZoneTemplate>
+                        <asp:ImportCatalogPart ID="ImportCatalogPart1"  runat="server" 
+                            BorderWidth="0" />
+                    </ZoneTemplate>
+                </asp:CatalogZone>
+                <asp:EditorZone ID="EditorZone1" runat="server" BackColor="white" BorderColor="#B7D8ED"
+                    BorderWidth="1px" HeaderStyle-CssClass="wp_Header" Height="100%">
+                    <ZoneTemplate>
+                        <asp:AppearanceEditorPart ID="AppearanceEditorPart1" runat="server" />
+                        <asp:BehaviorEditorPart ID="BehaviorEditorPart1" runat="server" />
+                        <asp:LayoutEditorPart ID="LayoutEditorPart1" runat="server" />
+                        <asp:PropertyGridEditorPart ID="PropertyGridEditorPart1" runat="server"/>
+                    </ZoneTemplate>
+                </asp:EditorZone>
+            </td>
+        </tr>
+    </table>
+</asp:Content>
+

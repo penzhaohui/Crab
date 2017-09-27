@@ -1,0 +1,12 @@
+F:\MyWorkspace\Crab\Crab.Workflow\obj\Debug\Crab.Workflow.csprojResolveAssemblyReference.cache
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Crab.Workflow.dll
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Crab.Workflow.pdb
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Crab.Runtime.Contract.dll
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Crab.DataModel.dll
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Crab.Runtime.Contract.pdb
+F:\MyWorkspace\Crab\Crab.Workflow\bin\Debug\Crab.DataModel.pdb
+F:\MyWorkspace\Crab\Crab.Workflow\obj\Debug\Crab.Workflow.dll
+F:\MyWorkspace\Crab\Crab.Workflow\obj\Debug\Crab.Workflow.pdb

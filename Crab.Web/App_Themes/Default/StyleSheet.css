@@ -1,0 +1,218 @@
+﻿/*-------------- over all ----------------- */
+body, div, table, td, p a, input, select, textarea, button {
+	font-family: Tahoma, Sans-Serif;
+	font-size: 11px;
+	color: Black;
+	line-height: 18px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	border: 0px;
+}
+input {
+	line-height: 13px;	
+}
+td {
+	border-color: #EEEEEE;
+}
+a {
+	color: #237155;
+	text-decoration: none;	
+}
+a:hover {
+	color: #ff6600;
+	text-decoration: underline;	
+}
+
+/*-------------- global classes ----------------- */
+.t1 {
+	color: #ff6600;	
+}
+.t2 {
+	color: Red;	
+}
+.t3 {
+	color: Gray;	
+}
+.label
+{
+   color:#3876ca;
+}
+.buttonstyle
+{
+	background-color:#FDFDFD;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#A4D3AE', endColorStr='#FFFFFF', gradientType=0);
+    color:Black;
+    border-style:none;
+    border: 1px #B7D8ED solid;
+	cursor: hand;
+	width: 70px;
+	height: 20px;
+}
+.textbox
+{
+	border: 1px #8FC8A4 solid;
+	line-height: 16px;
+	height: 20px;
+}
+.border {
+	border:	1px #8FC8A4 solid;
+	border-collapse: collapse;
+}
+.lightborder {
+	border: 1px #8FC8A4 solid;	
+	border-collapse: collapse;
+}
+.highlight {
+	background: #FFFFBB;	
+}
+table.toptable {
+}
+table.fixed {
+	table-layout: fixed;
+}
+
+/*-------------- from javascript ------------- */
+#js_tooltip {
+	border:			1px #666666 solid;
+	background:		#FFF3D3;
+	padding:		1px 2px 2px 2px;
+	text-align:		left;
+	overflow:		hidden;
+	filter:			progid:DXImageTransform.Microsoft.Alpha(opacity=85)
+					progid:DXImageTransform.Microsoft.shadow(direction=135,color=#9F9F9F,strength=3);
+	-moz-opacity:	0.85;
+}
+
+
+/*-------------- for Site Navigator -------------- */
+.PageHead {
+    height: 77px;
+    background: url('images/headbg.gif') repeat-x;
+}
+.SubmenuContainer {
+    background: url('images/submenubg.jpg') no-repeat;    
+}
+.CurrentSubmenuItem {
+    background:  white url("images/submenuitembg.jpg") no-repeat;
+}
+.MainMenu {
+    color: White;
+}
+.MainMenu a {
+    font-weight: bold;
+    color: White; 
+    text-decoration: none;  
+}
+.MainMenu a:hover {
+    color: White; 
+    text-decoration: underline;  
+}
+
+.rightborder
+{
+	padding: 8px 15px 15px 30px;
+	border-top: 1px #75CEA2 solid;
+}
+
+/*---------------- for PropertyGrid -------------*/
+table.PropertyGrid {
+	padding: 3px;
+	border: 1px solid #999999;	
+}
+table.PropertyGrid .Category 
+{
+	height: 21px;
+	text-align: left;
+	background:	#eeeeee;
+	font: bold 11px tahoma;
+}
+table.PropertyGrid .PropertyName {
+	padding-left: 24px;
+	padding-right: 9px;
+	background:	#f9f9f9;
+	font:11px tahoma;
+}
+table.PropertyGrid .PropertyValue {
+	padding-right: 15px;
+}
+table.PropertyGrid .PropertyValue input {
+	font:11px tahoma;
+	width: 200px;
+	height: 18px;
+	line-height: 17px;
+	border: 0px;
+}
+table.PropertyGrid .PropertyValue select {
+	font:11px tahoma;
+	height: 18px;
+}
+
+
+/*----------- for GridView -----------*/
+.gridviewheader {
+
+}
+.gridviewheader th {
+    color: White;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#43906F', endColorStr='#96CCA4', gradientType=0);
+}
+.tableHeader {
+    color: White;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#43906F', endColorStr='#96CCA4', gradientType=0);
+}
+
+/*----------- for Webparts -----------*/
+.webpartMenu
+{
+    padding-left:3px; 
+    padding-right:3px; 
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#6699FF', gradientType=1);
+}
+.wp_Header {
+	background-color:#D3F5DC; FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#D3F5DC', endColorStr='#FFFFFF', gradientType=0);
+}
+div.wp_MenuFrame {
+    filter:			progid:DXImageTransform.Microsoft.Alpha(opacity=88)
+			        progid:DXImageTransform.Microsoft.shadow(direction=135,color=#AFAFAF,strength=2);
+    border:			1px #7F9DB9 solid;
+    background:		#F6F6F6;
+    padding:        1px;
+}
+table.wp_MenuItem {
+    text-align: left;
+    padding: 1px 20px 1px 9px;
+    border: 0px;
+}
+table.wp_MenuItemHover {
+    padding: 0px 19px 0px 8px;
+    border: 1px #316AC5 solid;
+    background: #C1D2EE;
+}
+a.wp_MenuItem {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+a.wp_MenuItem:hover {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+/*------------------ for Modal Popup -----------------*/
+.modalBackground {
+	background-color:Gray;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border: 3px solid gray;
+	padding: 3px;
+	width: 250px;
+}
