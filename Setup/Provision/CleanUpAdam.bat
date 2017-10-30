@@ -1,0 +1,1 @@
+%windir%\adam\adamuninstall /q /force /i:saas

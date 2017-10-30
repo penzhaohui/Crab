@@ -1,0 +1,1 @@
+sqlcmd -S localhost -E -i DropDb.sql

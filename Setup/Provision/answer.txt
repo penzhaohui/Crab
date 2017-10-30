@@ -1,0 +1,30 @@
+[ADAMInstall]
+
+ShowOrHideProgressGUI=Show
+; The following line specifies to install a unique ADAM instance.
+InstallType=Unique
+
+; The following line specifies the name to be assigned to the new 
+; instance.
+InstanceName=saas
+
+; The following line specifies the TCP port to use for LDAP.
+LocalLDAPPortToListenOn=389
+
+; The following line specifies the port to use for SSL.
+LocalSSLPortToListenOn=636
+
+;ServiceAccount="NT AUTHORITY\NetworkService"
+
+; The following line specifies an application partition to create
+NewApplicationPartitionToCreate="dc=saas,DC=com"
+
+; The following line specifies the directory to use for ADAM data 
+; files.
+DataFilesPath=C:\Program Files\Microsoft ADAM\saas\data
+
+; The following line specifies the directory to use for ADAM log files.
+LogFilesPath=C:\Program Files\Microsoft ADAM\saas\logs
+
+
+ImportLDIFFiles="ms-inetorgperson.ldf" "ms-user.ldf"
